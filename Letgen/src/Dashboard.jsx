@@ -1,8 +1,9 @@
+
 import React, { useState, useEffect, useRef } from 'react';
-import 'bulma/css/bulma.css';
+import 'bulma/css/bulma.min.css';   
+import './App.css';                
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 import './custom.css';
 import jsPDF from 'jspdf';
 import { PDFDocument, rgb } from 'pdf-lib';
@@ -767,10 +768,11 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="hero is-fullheight">
+    <div className="hero is-fullheight" style={{ color: '#002f6c'  }}>
       <Toaster position="top-right" reverseOrder={false} />
       <div className="hero-head">
-        <nav className="navbar" style={{ backgroundColor: '#002f6c', padding: '1rem' }}>
+        <nav className="navbar" style={{ backgroundColor: '#002f6c', padding: '1rem', color: "blue"  }}>
+
           <div className="navbar-brand">
             <div className="navbar-item title is-2 has-text-white">LeGen</div>
           </div>

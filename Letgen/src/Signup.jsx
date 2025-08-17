@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import Tesseract from 'tesseract.js';
-import 'bulma/css/bulma.min.css';
+import 'bulma/css/bulma.min.css'; 
+import './App.css';                 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import regBackground from './assets/reg_background.jpg';
 

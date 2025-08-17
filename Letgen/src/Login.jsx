@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
-import 'bulma/css/bulma.min.css';
-import './App.css';
+import 'bulma/css/bulma.min.css';   
+import './App.css';                
 import regBackground from './assets/reg_background.jpg';
 
 function Login() {

@@ -13,3 +13,10 @@ body {
   color: #363636;
   border-color: #ccc; 
 }
+.hero, .section {
+  background-color: white !important;
+  color: black !important;
+}
+.container{
+  color: 'black' !important
+}
