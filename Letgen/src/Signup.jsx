@@ -180,7 +180,7 @@ function Signup() {
     };
 
     try {
-      const response = await axios.post('http://localhost:3008/register', userData);
+      const response = await axios.post('https://mepcolegen-3.onrender.com/register', userData);
       console.log('Manual registration response:', response.data);
       setRegistrationSuccess(true);
     } catch (error) {
@@ -194,7 +194,7 @@ function Signup() {
     setRegistrationSuccess(false);
 
     try {
-      const response = await axios.post('http://localhost:3008/register/google', {
+      const response = await axios.post('https://mepcolegen-3.onrender.com/register/google', {
         token: googleData.credential,
       });
       console.log('Google registration response:', response.data);
