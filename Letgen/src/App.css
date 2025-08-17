@@ -17,6 +17,6 @@ body {
   background-color: white !important;
   color: black !important;
 }
-.container{
-  color: 'black' !important
+.label{
+  color: black;
 }

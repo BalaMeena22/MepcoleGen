@@ -852,7 +852,7 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="field">
-                    <label className="label">Recipient</label>
+                    <label className="label" >Recipient</label>
                     <div className="control">
                       <div className="select is-fullwidth">
                         <select name="recipientId" value={formData.recipientId} onChange={handleFormChange}>
